@@ -1,0 +1,59 @@
+# Credenciais e variaveis de ambiente (em qualquer nivel).
+.env
+.env.*
+*.env
+credentials/
+credentials.*
+secrets/
+secrets.*
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.aws/
+.ssh/
+
+# Configuracoes privadas da maquina e do editor.
+*.local
+*.local.*
+config.local/
+.vscode/settings.json
+*.code-workspace
+.idea/
+
+# Logs e arquivos temporarios.
+*.log
+*.log.*
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Caches de ferramentas.
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Metadados locais do sistema operacional.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Modelos sem valores reais podem ser versionados.
+!.env.example
+!.env.sample
+!.env.template
+!credentials.example.*
+!secrets.example.*
+
+# As exclusoes do PlatformIO permanecem em Ergon-ESP32/.gitignore.
+# Nao excluir platformio.ini nem os diretorios src, include, lib e test.
